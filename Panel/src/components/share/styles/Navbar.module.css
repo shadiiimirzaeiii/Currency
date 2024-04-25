@@ -1,0 +1,7 @@
+.wrapper {
+  @apply bg-indigo-600 text-white pr-2 rounded-b-2xl;
+}
+
+.icon {
+  @apply text-left text-2xl py-4;
+}

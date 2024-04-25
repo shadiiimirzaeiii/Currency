@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  /* font-family: IranSans;
+  src: url("assets/fonts/woff/IRANSansWeb(FaNum)_Light.woff") format("woff"); */
+  font-weight: 300;
+  font-display: swap;
+}
+
+:root {
+  font-family: IranSans, sans-serif, Arial;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  /* direction: rtl; */
+  box-sizing: content-box;
+  font-size: 1 rem;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+h1 {
+  line-height: 1.1;
+}
+
+input {
+  caret-color: rgb(30, 0, 255);
+}
+
+input:focus {
+  outline-width: 0;
+}
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+} */
